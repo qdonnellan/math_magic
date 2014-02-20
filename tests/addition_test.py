@@ -33,7 +33,7 @@ class TestAdditionImplementation(unittest.TestCase):
         '''
         user_input = '[0..10] + [0..10]'
         data = self.load_json_response(user_input)
-        self.assertTrue(re.match('\d+.*+\d+', data['plain_text']))
+        self.assertTrue(re.match('(\d+).*[+].*(\d+)', data['plain_text']))
 
 
 
