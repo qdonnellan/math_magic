@@ -3,7 +3,8 @@ import random
 
 def replace_random_seeds(user_input):
     '''
-    replace instances of [a..b], (a..b), (a..b], and [a..b) with a random number N such that
+    replace instances of [a..b], (a..b), (a..b], and [a..b) with a random number N
+    
     a < N < b (with left or right inclusiveness according to left-right parentheses/bracket behavior)
     '''
     pattern = re.compile("[\(\[]\d+..\d+[\)\]]")
