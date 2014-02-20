@@ -2,6 +2,7 @@ import re
 import random
 
 # just a sandbox for trying things out
+# this is mostly old stuff that I haven't transferred into the project yet
 
 prb = '(1,4]**2 + [1,4]**2'
 
